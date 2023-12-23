@@ -1,0 +1,7 @@
+greeting:
+  message: "hello"
+
+prod:
+
+  %prod.pulsar.client.serviceUrl=pulsar:6650
+  mp.messaging.incoming.prices.connector=smallrye-pulsar
